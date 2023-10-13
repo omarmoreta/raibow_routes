@@ -1,0 +1,12 @@
+{
+  "name": "rainbow_routes",
+  "version": "1.0.0",
+  "description": "Creating an express server and receiving input CSS color via query params to be able to update the route page with a different color.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
