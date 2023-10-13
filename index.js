@@ -8,7 +8,14 @@ const PORT = process.env.PORT;
 
 // root/home path for the app
 app.get("/", function (req, res) {
-  res.send("Hello World!");
+  res.send(`
+        <body style="margin: 0;">
+            <div style="border: 1px solid black; height: 10vh; background-color: white;">
+                <h2 style="text-align: center;">NAV BAR</h2>
+            </div>
+            <h1>White Page</h1>
+        </body>
+    `);
 });
 
 // server is listening for requests on PORT
